@@ -15,9 +15,10 @@ def changeForm(data):
         temp = line.strip().split(" ")
         boards.append(temp)
 
-    for i in range(len(boards))
     return np.array(boards)
 
 def main():
     white_data = open("white_wins.txt", 'r')
     black_data = open("black_wins.txt", 'r')
+
+    print(white_data)
